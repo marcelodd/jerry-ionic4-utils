@@ -1,9 +1,9 @@
 {
   "name": "mc-ionic4-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Marcelo de Castro",
-  "main": "./dist/index.js",
-  "typings": "./dist/index.d.ts",
+  "main": "./dist/src/index.js",
+  "typings": "./dist/src/index.d.ts",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcelodd/jerry-ionic4-utils"
+    "url": "git+https://github.com/marcelodd/jerry-ionic4-utils.git"
   },
   "dependencies": {
     "@angular/common": "^7.2.2",
@@ -66,5 +66,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marcelodd/jerry-ionic4-utils/issues"
-  }
+  },
+  "homepage": "https://github.com/marcelodd/jerry-ionic4-utils#readme"
 }
