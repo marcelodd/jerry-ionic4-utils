@@ -1,17 +1,24 @@
 {
-  "name": "jerry-ionic4-utils",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "name": "mc-ionic4-utils",
+  "version": "1.0.0",
+  "author": "Marcelo de Castro",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "ngc": "ngc",
+    "build": "rd -r dist && npm run ngc",
+    "submit": "npm publish",
+    "submitGit": "git push --all && git push --tags && npm run build && npm publish"
   },
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelodd/jerry-ionic4-utils"
+  },
   "dependencies": {
     "@angular/common": "^7.2.2",
     "@angular/core": "^7.2.2",
@@ -54,5 +61,10 @@
     "tslint": "~5.12.0",
     "typescript": "~3.1.6"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcelodd/jerry-ionic4-utils/issues"
+  }
 }
